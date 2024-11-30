@@ -7,7 +7,20 @@
     "target": "esnext",
     "types": ["node"],
     "noEmitOnError": true,
-    "noEmit": true
+    "noEmit": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "newLine": "lf",
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "lib": ["ESNext"]
   },
   "include": ["src/**/*.ts", "src/**/*.js", "scripts/*.ts"]
 }

@@ -1,13 +1,19 @@
 {
+  "type": "module",
   "scripts": {
-    "start": "tsx src/app.ts",
-    "dev": "tsx watch src/app.ts",
-    "prettify": "prettier --write ."
+    "start": "tsx src/start.ts",
+    "dev": "tsx watch src/start.ts",
+    "prettify": "prettier --write .",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "fastify": "5.1.0"
+    "fastify": "5.1.0",
+    "@fastify/autoload": "6.0.2",
+    "dotenv": "16.4.5",
+    "@fastify/sensible": "6.0.1"
   },
   "devDependencies": {
+    "pino-pretty": "13.0.0",
     "@tsconfig/node22": "22.0.0",
     "@types/node": "22.10.1",
     "prettier": "3.4.1",
