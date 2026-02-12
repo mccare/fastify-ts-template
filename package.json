@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "pino-pretty": "13.0.0",
-    "@tsconfig/node22": "22.0.0",
+    "@tsconfig/node24": "24.0.0",
     "@types/node": "22.10.2",
     "prettier": "3.4.2",
     "tsx": "4.19.2",
